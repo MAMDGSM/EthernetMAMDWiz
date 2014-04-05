@@ -12,7 +12,7 @@ The Ethernet library lets you connect to the Internet or a local network
 
 #### WIZnet Eagle CAD Library
 * [Wiz550io_v1.1Eagle](http://wizwiki.net/wiki/lib/exe/fetch.php?media=osh:eaglecadlib:wiz550io_v1.1.zip "Wiz550io_v1.1Eagle.zip ")
-
+44
 
  |-----       -----|
  |      RJ-45      |
