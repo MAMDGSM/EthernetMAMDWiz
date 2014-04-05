@@ -35,6 +35,7 @@ The Ethernet library lets you connect to the Internet or a local network
 ## Software
 #### 1. Install Ethernet MAMDWiz Library
 ##### Arduino IDE 1.0.x
+<<<<<<< HEAD
 Download all files and overwrite onto the "\libraries\EthernetMAMDWiz" folder in your project in sketch.
 
 or (recommended)
@@ -43,3 +44,15 @@ Download all files and overwrite onto the "My Documents\Arduino\libraries\Ethern
 ## Revision History
 * Initial Release : 3 Apr 2014
 * This version has been adapted: M. Med Ali Mortadha DAHMANI, MAMD-2014.
+=======
+
+* Download all files and extract onto the "My Documents\Arduino\libraries\" folder in your project in sketch.
+
+Or (recommended)
+
+* To use a library in a sketch, select it from Sketch > Import Library (Zip file).
+
+## Revision History
+* Initial Release : 3 Apr 2014
+* This version has been adapted: M. Med Ali Mortadha DAHMANI, MAMD-2014.
+>>>>>>> dd7c8a2bb12811ca05c061d2655efa737e6d6fb0
