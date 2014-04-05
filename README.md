@@ -1,17 +1,17 @@
 Ethernet MAMDWiz Library
 ========
-Ethernet MAMDWiz Library is made for various Open Source Hardware Platform and support WIZnet's W5100, W5200 and W5500 chip. 
+Ethernet MAMDWiz Library is made for various Open Source Hardware Platform and support WIZnet's W5500 chip. 
 The Ethernet library lets you connect to the Internet or a local network
 
 ## Supported devices
-* ioShield, WIZ550io (using W5500)
-* W5200 Ethernet Shield, WIZ820io (using W5200)
-* Arduino Ethernet Shield (using W5100)
+* WIZ550io module (using W5500 chip)
 
 ## Hardware
-* [ioShield](http://wizwiki.net/wiki/doku.php?id=ioshield "ioShield")
-* [W5200 Ethernet Shield](https://github.com/Wiznet/W5200-Ethernet-Shield "W5200 Ethernet Shield")  
-* [Ethernet Shield](http://arduino.cc/en/Main/ArduinoEthernetShield "Ethernet Shield")  
+#### WIZnet WIZ550io 
+* [Wiz550io All](http://wizwiki.net/wiki/doku.php?id=products:wiz550io:allpages "Wiz550io All")
+
+#### WIZnet Eagle CAD Library
+* [Wiz550io_v1.1Eagle](http://wizwiki.net/wiki/lib/exe/fetch.php?media=osh:eaglecadlib:wiz550io_v1.1.zip "Wiz550io_v1.1Eagle.zip ")
 
 ## Software
 #### 1. Install Ethernet MAMDWiz Library
