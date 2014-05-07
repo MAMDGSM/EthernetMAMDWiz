@@ -10,6 +10,8 @@ The Ethernet library lets you connect to the Internet or a local network
 #### WIZnet WIZ550io 
 * [Wiz550io All](http://wizwiki.net/wiki/doku.php?id=products:wiz550io:allpages "Wiz550io All")
 
+![alt iviny](https://raw.githubusercontent.com/MAMDGSM/EthernetMAMDWiz/master/WIZ550ioPinout.jpg)
+
 #### WIZnet Eagle CAD Library
 * [Wiz550io_v1.1Eagle](http://wizwiki.net/wiki/lib/exe/fetch.php?media=osh:eaglecadlib:wiz550io_v1.1.zip "Wiz550io_v1.1Eagle.zip ")
 
@@ -25,4 +27,4 @@ Or (recommended)
 
 ## Revision History
 * Initial Release : 3 Apr 2014
-* This version has been adapted: M. Med Ali Mortadha DAHMANI, MAMD-2014.
+* This version has been adapted: Mr Med Ali Mortadha DAHMANI, MAMD-2014.
