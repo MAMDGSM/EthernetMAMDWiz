@@ -61,9 +61,10 @@ void EthernetClass::begin(uint8_t *mac, IPAddress local_ip, IPAddress dns_server
 {
   W5100.init();
   W5100.setMACAddress(mac);
-  W5100.setIPAddress(local_ip._address);
-  W5100.setGatewayIp(gateway._address);
-  W5100.setSubnetMask(subnet._address);
+  //masgari I've changed '_address' calls to raw_address() to be able to compile the samples
+  W5100.setIPAddress(local_ip.raw_address());
+  W5100.setGatewayIp(gateway.raw_address());
+  W5100.setSubnetMask(subnet.raw_address());
   _dnsServerAddress = dns_server;
 }
 
@@ -122,9 +123,9 @@ void EthernetClass::begin(IPAddress local_ip, IPAddress dns_server, IPAddress ga
 {
   byte mac_address[6] ={0,};
   W5100.init();
-  W5100.setIPAddress(local_ip._address);
-  W5100.setGatewayIp(gateway._address);
-  W5100.setSubnetMask(subnet._address);
+  W5100.setIPAddress(local_ip.raw_address());
+  W5100.setGatewayIp(gateway.raw_address());
+  W5100.setSubnetMask(subnet.raw_address());
   _dnsServerAddress = dns_server;
 }
 #endif
